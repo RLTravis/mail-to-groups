@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <record model="ir.ui.view" id="email_template_form">
-        <field name="name">mole-odoo-plugin.mail.template.form</field>
+        <field name="name">mail-to-groups.mail.template.form</field>
         <field name="model">mail.template</field>
         <field name="inherit_id" ref="mail.email_template_form" />
         <field name="arch" type="xml">
